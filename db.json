@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "afab",
+      "firstname": "test",
+      "lastname": "test1",
+      "email": "test1@gmail.com",
+      "password": "test123"
+    },
+    {
+      "firstname": "test, update",
+      "lastname": "test1",
+      "email": "test1@gmail.com",
+      "id": "041f"
+    },
+    {
+      "id": "5de1",
+      "firstname": "new",
+      "lastname": "new",
+      "email": "new@gmail.com",
+      "password": "new123"
+    }
+  ]
+}

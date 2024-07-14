@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "firstname": "Ram",
+        "lastname": "Karki",
+        "email": "ram@gmail.com",
+        "id": "04b0"
+      },
+      {
+        "id": "3d18",
+        "firstname": "Sita",
+        "lastname": "Shrestha",
+        "email": "sita@gmail.com",
+        "password": "ram123"
+      },
+      {
+        "id": "929e",
+        "firstname": "Hari",
+        "lastname": "Kumar",
+        "email": "hari@gmail.com",
+        "password": "ram123"
+      },
+      {
+        "id": "8cee",
+        "firstname": "John",
+        "lastname": "Cena",
+        "email": "john@gmail.com",
+        "password": "ram123"
+      }
+    ]
+  }

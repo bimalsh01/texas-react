@@ -1,31 +1,34 @@
-import { createSlice } from "@reduxjs/toolkit";
+// Importing create slice
+import  {createSlice} from '@reduxjs/toolkit'
 
-// Initial value (What data should be loaded at first)
+// Making initial state
+// what type of data, users hold\
 const initialState = {
-    users : [] // list of user
+    users : []
 }
 
-// Creating slice in store
 export const userSlice = createSlice({
-    name : "users",
+    name : 'users',
     initialState,
 
-    // reducer : List of actions (Add data to list, remove, change)
+    // its for state data management
+    // Add, edit, delete
     reducers : {
-        // Inserting/adding data into that empty array
-        // state : above state (users - Empty Array)
-        // action : we can trigger it from anywhere (Homepage)
-        
-        addUser : (state, action) => {
-            // state ma user ko data filled garnu paro
-            state.users = action.payload;
+        // individual reducers (Task)
+
+        // Task 1 : For Adding User to storage
+        addUser: (state, action) => {
+            // Finding state 
+            // Adding data from payload to state
+            state.users = action.payload
         }
-
-
     }
 })
 
-// exporting the reducer (Actions)
+// exporting for individual uses
 export const {addUser} = userSlice.actions;
+
+// Export for redux storage uses
 export default userSlice.reducer;
+
 

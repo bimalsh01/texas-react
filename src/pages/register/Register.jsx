@@ -92,15 +92,9 @@ const Register = () => {
 
   return (
     <div className='container mt-5'>
-
-    
-
       <h3 className='text-center'>Create your <span className='text-danger'>Account!</span></h3>
-
       <div className='row justify-content-center'>
-
         <form className='col-12 col-md-8 col-lg-6 col-xl-4 shadow p-3 rounded'>
-
           <label htmlFor="firstname">Firstname</label>
           <input onChange={(e) => setFirstname(e.target.value)} type="text" className='form-control' placeholder='Enter your firstname' />
 

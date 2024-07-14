@@ -1,24 +1,31 @@
 {
   "users": [
     {
-      "id": "afab",
-      "firstname": "test",
-      "lastname": "test1",
-      "email": "test1@gmail.com",
-      "password": "test123"
+      "firstname": "Ram",
+      "lastname": "Karki",
+      "email": "ram@gmail.com",
+      "id": "04b0"
     },
     {
-      "firstname": "test, update",
-      "lastname": "test1",
-      "email": "test1@gmail.com",
-      "id": "041f"
+      "id": "3d18",
+      "firstname": "Sita",
+      "lastname": "Shrestha",
+      "email": "sita@gmail.com",
+      "password": "ram123"
     },
     {
-      "id": "5de1",
-      "firstname": "new",
-      "lastname": "new",
-      "email": "new@gmail.com",
-      "password": "new123"
+      "id": "929e",
+      "firstname": "Hari",
+      "lastname": "Kumar",
+      "email": "hari@gmail.com",
+      "password": "ram123"
+    },
+    {
+      "id": "8cee",
+      "firstname": "John",
+      "lastname": "Cena",
+      "email": "john@gmail.com",
+      "password": "ram123"
     }
   ]
 }
